@@ -1,0 +1,8 @@
+---
+Checks: '-*,
+    performance-*,
+    openmp-*,
+    modernize-*,
+    clang-analyzer-*,
+    bugprone-*,
+    readability-*'

@@ -1,0 +1,13 @@
+---
+Checks: '-*,
+    performance-*,
+    openmp-*,
+    hicpp-*,
+    -hicpp-no-array-decay,
+    modernize-*,
+    -modernize-use-trailing-return-type,
+    cppcoreguidelines-*,
+    -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+    clang-analyzer-*,
+    bugprone-*,
+    readability-*'

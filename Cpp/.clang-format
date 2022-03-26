@@ -1,0 +1,10 @@
+BasedOnStyle: LLVM
+ColumnLimit: 80
+AlwaysBreakAfterDefinitionReturnType: None
+IndentWidth: 4
+TabWidth: 4
+BreakBeforeBraces: Linux
+AccessModifierOffset: -4
+IndentCaseBlocks: true
+IndentCaseLabels: true
+PointerAlignment: Right
