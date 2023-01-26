@@ -1,3 +1,4 @@
+# See https://clang.llvm.org/extra/clang-tidy/checks/list.html
 ---
 Checks: '-*,
     performance-*,
@@ -10,4 +11,7 @@ Checks: '-*,
     -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
     clang-analyzer-*,
     bugprone-*,
-    readability-*'
+    readability-*
+    -readability-implicit-bool-conversion,
+    -readability-identifier-length,
+    abseil-*'

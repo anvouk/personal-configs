@@ -1,10 +1,13 @@
-BasedOnStyle: LLVM
-ColumnLimit: 80
-AlwaysBreakAfterDefinitionReturnType: None
-IndentWidth: 4
-TabWidth: 4
-BreakBeforeBraces: Linux
-AccessModifierOffset: -4
-IndentCaseBlocks: true
+# See https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: WebKit
+AllowShortLambdasOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortEnumsOnASingleLine: false
+InsertBraces: true
+AlignAfterOpenBracket: BlockIndent
+ColumnLimit: 120
+AlwaysBreakAfterReturnType: None
+BinPackParameters: false
+BinPackArguments: false
+PointerAlignment: Left
 IndentCaseLabels: true
-PointerAlignment: Right
