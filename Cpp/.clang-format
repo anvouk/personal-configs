@@ -11,3 +11,5 @@ BinPackParameters: false
 BinPackArguments: false
 PointerAlignment: Left
 IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+AlignEscapedNewlines: Left

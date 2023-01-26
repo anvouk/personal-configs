@@ -13,3 +13,6 @@ PointerAlignment: Right
 IndentCaseLabels: true
 AlignConsecutiveMacros:
     Enabled: true
+    AcrossComments: true
+IndentPPDirectives: BeforeHash
+AlignEscapedNewlines: Right
